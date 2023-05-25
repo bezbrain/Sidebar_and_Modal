@@ -3,7 +3,7 @@ import { navData } from "../data";
 import { useGlobalContext } from "../context";
 
 const SideBar = () => {
-  const { showNav, setShowNav, showModal } = useGlobalContext();
+  const { showNav, setShowNav } = useGlobalContext();
 
   return (
     <>
